@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+html {
+  direction: rtl;
+}
+
+/* Custom Arabic number formatting */
+.arabic-numbers {
+  font-feature-settings: "kern", "liga", "clig", "calt", "tnum";
+}
